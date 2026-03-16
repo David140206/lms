@@ -73,7 +73,7 @@ class StudentRepositoryTest {
 
     @Test
     void testReadStudentById() {
-        // Arrange
+        // Arrangee
         Student guardado = studentRepository.save(testStudent);
 
         // Act (Ejecutar lectura)
